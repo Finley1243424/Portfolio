@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Finley Irvine — Chemical Engineering</title>
+  <meta name="description" content="Chemical Engineering student at RIT. Builder of computational tools, fragrance formulation systems, and process models. Available for co-op May–Dec 2026.">
+
+  <!-- Prevent theme flash — default dark -->
+  <script>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (!t) t = 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">FI</a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <!-- Icon injected by JS -->
+          </button>
+        </li>
+      </ul>
+
+      <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section id="hero" class="section-hero">
+      <div class="hero-grid"></div>
+      <div class="container hero-content">
+        <h1 class="hero-name" data-reveal="fade-up">Finley Irvine</h1>
+
+        <p class="hero-tagline" data-typewriter="Chemical Engineering · Builder · Problem Solver"></p>
+
+        <div class="hero-details" data-reveal="fade-up" style="--i: 2">
+          <span class="hero-detail">
+            <span class="dot"></span>
+            Chemical Engineering @ RIT
+          </span>
+          <span class="hero-detail">
+            <span class="dot"></span>
+            Dean's List · 3.37 GPA
+          </span>
+          <span class="hero-detail">
+            <span class="dot"></span>
+            Available for co-op: May–Dec 2026
+          </span>
+        </div>
+
+        <a href="#projects" class="hero-cta" data-reveal="fade-up" style="--i: 3">
+          View My Work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <polyline points="19 12 12 19 5 12"></polyline>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+
+    <div class="container"><div class="section-divider"></div></div>
+
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section id="about" class="section-about">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="kicker">About</span>
+          <h2 data-reveal="assemble">Where Chemistry Meets Code</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text" data-reveal-group>
+            <p data-reveal="fade-up">
+              I'm a second-year Chemical Engineering student at Rochester Institute of Technology with a fascination for the space where scientific rigor meets creative problem-solving. My coursework spans thermodynamics, fluid mechanics, and organic chemistry — but what excites me most is building tools that make engineering intuition computable.
+            </p>
+            <p data-reveal="fade-up">
+              That curiosity led me to develop a full-stack fragrance formulation engine — a project that earned a $1,000 endowed scholarship and combines physical chemistry modeling with software engineering. I approach every problem the same way: understand the fundamentals, prototype rapidly, and iterate until the solution is both elegant and functional.
+            </p>
+            <p data-reveal="fade-up">
+              I'm looking for a co-op where I can apply this blend of chemical engineering knowledge and computational thinking to real-world process challenges.
+            </p>
+          </div>
+          <div class="about-accent" data-reveal="fade-in"></div>
+        </div>
+
+        <p class="section-aside" data-reveal="fade-up">
+          This section is my way of saying: I don't just study chemical engineering — I build things with it. The scholarship wasn't for grades; it was for applying engineering thinking to a creative domain and producing something real.
+        </p>
+      </div>
+    </section>
+
+
+    <div class="container"><div class="section-divider"></div></div>
+
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section id="projects" class="section-projects">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="kicker">Projects</span>
+          <h2>What I've Built</h2>
+        </div>
+
+        <!-- FEATURED: Fragrance Engine -->
+        <div class="project-featured" data-reveal="slide-in-left">
+          <div class="project-featured-inner">
+            <div class="project-meta">
+              <span class="project-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                Featured Project · $1,000 Scholarship
+              </span>
+              <h3 class="project-title">Fragrance Engine</h3>
+              <p class="project-desc">
+                A full-stack fragrance formulation system that converts scent goals into structured formulas using a deterministic scent-pyramid model. Features volatility and longevity modeling from physical properties, version-controlled formulas with diffs, IFRA compliance checking, and a custom olfactory taxonomy spanning 14+ scent families.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Flask</span>
+                <span class="project-tag">SQLite</span>
+                <span class="project-tag">LLM-Assisted</span>
+              </div>
+              <div class="project-stats" data-reveal-group>
+                <div class="stat" data-reveal="fade-up">
+                  <div class="stat-value">7,700+</div>
+                  <div class="stat-label">Lines of Code</div>
+                </div>
+                <div class="stat" data-reveal="fade-up">
+                  <div class="stat-value">100+</div>
+                  <div class="stat-label">Ingredients</div>
+                </div>
+                <div class="stat" data-reveal="fade-up">
+                  <div class="stat-value">25</div>
+                  <div class="stat-label">Data Columns</div>
+                </div>
+                <div class="stat" data-reveal="fade-up">
+                  <div class="stat-value">14+</div>
+                  <div class="stat-label">Scent Families</div>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Finley1243424" class="project-link" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+
+            <div class="project-visual">
+              <span class="project-visual-placeholder">[ screenshot ]</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other projects grid -->
+        <div class="projects-grid" data-reveal-group>
+
+          <!-- Engineering Principles Lab -->
+          <div class="project-card" data-reveal="fade-up">
+            <span class="kicker">Lab</span>
+            <h3>Engineering Principles Lab</h3>
+            <p>
+              Applied experiments in rheology, fluid flow, corrosion, heat transfer, surface tension, and reaction kinetics. Independently disassembled and reassembled a fully integrated process flow cart from a self-developed schematic — connecting piping networks, pumps, valves, and instrumentation.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Fluid Mechanics</span>
+              <span class="project-tag">Heat Transfer</span>
+              <span class="project-tag">Instrumentation</span>
+            </div>
+          </div>
+
+          <!-- Process Analysis -->
+          <div class="project-card" data-reveal="fade-up">
+            <span class="kicker">Modeling</span>
+            <h3>Chlorobenzene Process Model</h3>
+            <p>
+              Modeled and optimized a 25,000 t/yr chlorobenzene production process using thermodynamics, reactive mass balances, and phase equilibrium analysis. Evaluated operating conditions for economic performance and environmental impact.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Thermodynamics</span>
+              <span class="project-tag">Mass Balance</span>
+              <span class="project-tag">Process Design</span>
+            </div>
+          </div>
+
+          <!-- This Portfolio -->
+          <div class="project-card" data-reveal="fade-up">
+            <span class="kicker">Meta</span>
+            <h3>This Portfolio <span style="font-size: 0.6em; opacity: 0.6;">(yes, this one)</span></h3>
+            <p>
+              You're looking at it. A custom-built static site with scroll-triggered animations, dark/light theming, an "unwraveling" reveal system, and an AI-powered application page generator that creates personalized recruiter pages on command. No templates. No frameworks. Just HTML, CSS, vanilla JS, and a very persistent Claude session.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML / CSS / JS</span>
+              <span class="project-tag">AI-Generated</span>
+              <span class="project-tag">Claude Code</span>
+            </div>
+          </div>
+
+          <!-- Onshape — Coming Soon -->
+          <div class="project-card coming-soon" data-reveal="fade-up">
+            <span class="kicker">3D Design</span>
+            <h3>Onshape 3D Project</h3>
+            <p>
+              A CAD modeling project built in Onshape. Details and visuals coming soon.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Onshape</span>
+              <span class="project-tag">CAD</span>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="section-aside" data-reveal="fade-up">
+          Every project here started with a question I couldn't stop thinking about. The Fragrance Engine began as "can I make scent formulation computable?" — and turned into a production-grade system. That's how I work: curiosity first, then engineering until it's real.
+        </p>
+      </div>
+    </section>
+
+
+    <div class="container"><div class="section-divider"></div></div>
+
+
+    <!-- ============================================================
+         SKILLS
+         ============================================================ -->
+    <section id="skills" class="section-skills">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="kicker">Skills</span>
+          <h2>Technical Toolkit</h2>
+        </div>
+
+        <div class="skills-grid" data-reveal-group>
+
+          <!-- AI & Computational Tools — Lead column -->
+          <div class="skill-category" data-reveal="fade-up">
+            <h3>AI & Computational Tools</h3>
+            <ul class="skill-list-tags">
+              <li class="skill-tag skill-tag--highlight">LLM-Assisted Application Development</li>
+              <li class="skill-tag skill-tag--highlight">Prompt Engineering & Architecture</li>
+              <li class="skill-tag skill-tag--highlight">AI-Augmented Prototyping</li>
+              <li class="skill-tag">Claude / ChatGPT / Copilot</li>
+              <li class="skill-tag">MCP Integrations & Tool Chains</li>
+              <li class="skill-tag">Dataset Structuring & CSV Ingestion</li>
+              <li class="skill-tag">Python (Flask, SQLite)</li>
+              <li class="skill-tag">Excel / Minitab</li>
+            </ul>
+          </div>
+
+          <div class="skill-category" data-reveal="fade-up">
+            <h3>Engineering Tools</h3>
+            <ul class="skill-list-tags">
+              <li class="skill-tag">Onshape (3D CAD)</li>
+              <li class="skill-tag">PFD Interpretation</li>
+              <li class="skill-tag">Process Simulation</li>
+              <li class="skill-tag">System Troubleshooting</li>
+              <li class="skill-tag">PowerPoint / Technical Reporting</li>
+            </ul>
+          </div>
+
+          <div class="skill-category" data-reveal="fade-up">
+            <h3>Lab & Process</h3>
+            <ul class="skill-list-tags">
+              <li class="skill-tag">Instrumentation Setup</li>
+              <li class="skill-tag">Separations & Reactions</li>
+              <li class="skill-tag">Lab Safety / Protocols</li>
+              <li class="skill-tag">Formulation Development</li>
+              <li class="skill-tag">Rheology & Fluid Flow</li>
+              <li class="skill-tag">Heat Transfer</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <p class="section-aside" data-reveal="fade-up">
+          I don't just use AI tools — I build with them. The Fragrance Engine is an LLM-assisted application: I architect the system, design the data models, and use AI as a force multiplier to ship production-grade software faster than most teams. That's the skill that matters most here.
+        </p>
+      </div>
+    </section>
+
+
+    <div class="container"><div class="section-divider"></div></div>
+
+
+    <!-- ============================================================
+         EXPERIENCE
+         ============================================================ -->
+    <section id="experience" class="section-experience">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="kicker">Experience</span>
+          <h2>Where I've Worked</h2>
+        </div>
+
+        <div class="experience-list">
+
+          <div class="experience-item" data-reveal="slide-in-left">
+            <div class="experience-header">
+              <span class="experience-role">Resident Advisor</span>
+              <span class="experience-date">Aug 2025 – Present</span>
+            </div>
+            <div class="experience-org">RIT Residence Life · Rochester, NY</div>
+            <ul class="experience-highlights">
+              <li>Managing a community of 25 residents, providing mentorship and resources aligned with the "Live, Learn, Belong, Succeed" framework</li>
+              <li>Coordinating and leading community-wide programs to strengthen student engagement on campus</li>
+            </ul>
+          </div>
+
+          <div class="experience-item" data-reveal="slide-in-right">
+            <div class="experience-header">
+              <span class="experience-role">Social Media Content Manager</span>
+              <span class="experience-date">May 2025 – Present</span>
+            </div>
+            <div class="experience-org">Personal Business · Mont Vernon, NH</div>
+            <ul class="experience-highlights">
+              <li>Founded a short-form video editing business for Instagram and TikTok</li>
+              <li>Filmed and edited 50+ videos (~30s each) in a 2-month span using CapCut</li>
+              <li>Drove 70,000+ total views across platforms for clients including Kate Preftakes Photography and Events by Sorrell</li>
+            </ul>
+          </div>
+
+          <div class="experience-item" data-reveal="slide-in-left">
+            <div class="experience-header">
+              <span class="experience-role">Summer Camp Counselor</span>
+              <span class="experience-date">Jun 2021 – Aug 2024</span>
+            </div>
+            <div class="experience-org">Amherst Parks & Recreation Dept. · Amherst, NH</div>
+            <ul class="experience-highlights">
+              <li>Collaborated with colleagues to prepare 120+ activities and lead 40 campers through engaging summer programming over 4 seasons</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <p class="section-aside" data-reveal="fade-up">
+          These roles taught me how to lead, communicate, and deliver under pressure. Being an RA means solving problems in real time for real people. Running a content business means shipping work on deadline with paying clients. Both feed directly into how I approach engineering.
+        </p>
+      </div>
+    </section>
+
+
+    <div class="container"><div class="section-divider"></div></div>
+
+
+    <!-- ============================================================
+         INTERESTS
+         ============================================================ -->
+    <section id="interests" class="section-interests">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="kicker">Research & Interests</span>
+          <h2>What Fascinates Me</h2>
+        </div>
+
+        <div class="interests-grid" data-reveal-group>
+          <div class="interest-card" data-reveal="fade-up">
+            <div class="interest-icon">&#x1F9EA;</div>
+            <h3>Fragrance Science</h3>
+            <p>The chemistry of scent — volatility, molecular behavior, and how physical properties translate to sensory experience.</p>
+          </div>
+          <div class="interest-card" data-reveal="fade-up">
+            <div class="interest-icon">&#x2699;&#xFE0F;</div>
+            <h3>Process Optimization</h3>
+            <p>Finding the most efficient path through complex systems — from chemical processes to software architecture.</p>
+          </div>
+          <div class="interest-card" data-reveal="fade-up">
+            <div class="interest-icon">&#x1F321;&#xFE0F;</div>
+            <h3>Thermodynamics</h3>
+            <p>Phase equilibria, energy balances, and the fundamental rules that govern chemical systems.</p>
+          </div>
+          <div class="interest-card" data-reveal="fade-up">
+            <div class="interest-icon">&#x1F4BB;</div>
+            <h3>Computational Tools</h3>
+            <p>Building software that makes engineering intuition computable — from formulation engines to process models.</p>
+          </div>
+          <div class="interest-card" data-reveal="fade-up">
+            <div class="interest-icon">&#x1F916;</div>
+            <h3>LLM-Assisted Engineering</h3>
+            <p>Using large language models as engineering copilots — for code generation, data structuring, and rapid prototyping.</p>
+          </div>
+          <div class="interest-card" data-reveal="fade-up">
+            <div class="interest-icon">&#x1F52C;</div>
+            <h3>Scale-Up & Formulation</h3>
+            <p>Translating lab-scale prototypes into repeatable, economically viable production processes.</p>
+          </div>
+        </div>
+
+        <p class="section-aside" data-reveal="fade-up">
+          These aren't just academic interests — they're the threads that connect everything I build. Fragrance science led to the Fragrance Engine. Thermodynamics shaped my process models. AI tools let me ship all of it at a pace that shouldn't be possible for one person.
+        </p>
+      </div>
+    </section>
+
+
+    <div class="container"><div class="section-divider"></div></div>
+
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section id="contact" class="section-contact">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="kicker">Contact</span>
+          <h2>Let's Connect</h2>
+          <p style="margin: 0 auto;">I'm looking for co-op opportunities in chemical engineering and related fields. Feel free to reach out.</p>
+        </div>
+
+        <div class="contact-links" data-reveal="fade-up">
+          <a href="mailto:Finleyirvine@gmail.com" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Finleyirvine@gmail.com
+          </a>
+          <a href="tel:+16037593867" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            (603) 759-3867
+          </a>
+          <a href="https://www.linkedin.com/in/finley-irvine-11020b334" class="contact-link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Finley1243424" class="contact-link" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <a href="mailto:Finleyirvine@gmail.com" class="contact-cta" data-reveal="fade-up">
+          Get in Touch
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+
+        <div class="clubs" data-reveal="fade-up">
+          <span class="club-tag">AIChE</span>
+          <span class="club-tag">RIT Roundnet</span>
+          <span class="club-tag">Table Tennis</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Finley Irvine. Built with intention.</p>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
