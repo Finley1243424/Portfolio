@@ -1,0 +1,209 @@
+PORTFOLIO WEBSITE — EDITABLE TEXT
+Edit the text below, then give this file back to Claude to update the site. Do NOT change the section 
+headers (gold text) — only edit the content underneath.
+HOW TO USE THIS DOCUMENT
+•	Each gold heading matches a section on the website.
+•	Edit ONLY the black/gray text underneath each heading.
+•	Fields marked [FIELD NAME] are specific data fields — keep the label, change the 
+value.
+•	When done, save this file and share it back. Claude will update each section on the site.
+1. HERO SECTION
+Name
+Finley Irvine
+Tagline (typed out with animation)
+Chemical Engineering · Builder · Problem Solver
+Detail 1
+Chemical Engineering BS @ RIT
+Detail 2
+Dean’s List · 3.37 GPA
+Detail 3
+Available for co-op: May–Dec 2026
+CTA Button Text
+View My Work
+2. ABOUT SECTION
+Section Kicker
+About
+Section Heading
+Where Chemistry Meets Code
+Paragraph 1
+I’m a second-year Chemical Engineering student at Rochester Institute of Technology with a 
+fascination for the space where scientific rigor meets creative problem-solving. My coursework 
+spans thermodynamics, fluid mechanics, and organic chemistry. I aspire to take this coursework 
+and apply it to long-term projects. 
+Paragraph 2
+That curiosity led me to develop a full-stack fragrance formulation engine. This is a project with 
+a lot of history, and I was recently awarded a $1,000 endowed scholarship and combines 
+physical chemistry modeling with software engineering and entrepreneurship. I approach every 
+problem the same way: understand the fundamentals, try, fail, learn, and iterate until I get a 
+product that I am not only happy with, but ready to share with others.
+Paragraph 3
+I’m looking for a co-op where I can apply this blend of chemical engineering knowledge and 
+computational thinking to real-world process challenges.
+Section Commentary (italic aside)
+Chemical Engineers are known to be less hands-on than other related engineering fields. This 
+imbalance inspired me to always keep myself busy with a project since arriving at RIT.
+3. PROJECTS SECTION
+Section Heading
+What I’ve Built
+3a. Fragrance Engine (Featured)
+Badge Text
+Featured Project · $1,000 Scholarship
+Title
+Fragrance Engine
+Description
+You know nothing about making a fragrance? Choose what you want it to smell like, adjust to 
+your taste, and the engine will calculate a carefully refined and researched formula that is ready 
+to be implemented at any reasonable scale. This requires a full-stack fragrance formulation 
+system that converts scent goals into structured formulas using a deterministic scent-pyramid 
+model. Features volatility and longevity modeling from physical properties, version-controlled 
+formulas with diffs, IFRA compliance checking, and a custom olfactory taxonomy spanning 14+ 
+scent families. 
+Tags (comma-separated)
+Python, Flask, SQLite, LLM-Assisted
+Stats (value | label, one per line)
+7,700+ | Lines of Code
+100+ | Ingredients
+25 | Data Columns
+14+ | Scent Families
+GitHub Link
+https://github.com/Finley1243424/fragrance_engine
+3b. Engineering Principles Lab
+Kicker
+Lab
+Title
+Engineering Principles Lab
+Description
+Applied experiments in rheology, fluid flow, corrosion, heat transfer, surface tension, and 
+reaction kinetics. Independently disassembled and reassembled a fully integrated process flow 
+cart from a self-developed schematic — connecting piping networks, pumps, valves, and 
+instrumentation.
+Tags (comma-separated)
+Fluid Mechanics, Heat Transfer, Instrumentation
+3c. Chlorobenzene Process Model
+Kicker
+Modeling
+Title
+Chlorobenzene Process Model
+Description
+Modeled and optimized a 25,000 t/yr chlorobenzene production process using thermodynamics, 
+reactive mass balances, and phase equilibrium analysis. Evaluated operating conditions for 
+economic performance and environmental impact.
+Tags (comma-separated)
+Thermodynamics, Mass Balance, Process Design
+3d. Onshape 3D Project
+Title
+Onshape 3D Project
+Description
+A CAD modeling project built in Onshape. 
+Tags (comma-separated)
+Onshape, CAD
+Projects Section Commentary (italic aside)
+Every project here started with a question I couldn’t stop thinking about. The Fragrance Engine 
+began as “can I make scent formulation computable?” This turned into a production-grade 
+system. 
+4. SKILLS SECTION
+Section Heading
+Technical Toolkit
+4a. AI & Computational Tools
+Highlighted skills (gold accent):
+LLM-Assisted Application Development
+Prompt Engineering & Architecture
+AI-Augmented Prototyping
+Regular skills:
+Claude / ChatGPT / Copilot
+MCP Integrations & Tool Chains
+Dataset Structuring & CSV Ingestion
+Python (Flask, SQLite)
+Excel / Minitab
+4b. Engineering Tools
+Onshape (3D CAD)
+PFD Interpretation
+Process Simulation
+System Troubleshooting
+PowerPoint / Technical Reporting
+4c. Lab & Process
+Instrumentation Setup
+Separations & Reactions
+Lab Safety / Protocols
+Formulation Development
+Rheology & Fluid Flow
+Heat Transfer
+Skills Section Commentary (italic aside)
+Implementing AI within my projects has taught me many powerful tools that will only expand 
+with time. The Fragrance Engine is an LLM-assisted application: I spend as much time as one 
+would without the use of AI coding, to plan, gather context, and import tools to allow AI to work 
+with me, not for me. 
+5. EXPERIENCE SECTION
+Section Heading
+Where I’ve Worked
+5a. Resident Advisor
+Role: Resident Advisor
+Date: Aug 2025 – Present
+Organization: RIT Residence Life · Rochester, NY
+•	Managing a community of 25 residents, providing mentorship and resources aligned with 
+the “Live, Learn, Belong, Succeed” framework
+•	Coordinating and leading community-wide programs to strengthen student engagement 
+on campus
+5b. Social Media Content Manager
+Role: Social Media Content Manager
+Date: May 2025 – Present
+Organization: Personal Business · Mont Vernon, NH
+•	Founded a short-form video editing business for Instagram and TikTok
+•	Filmed and edited 50+ videos (~30s each) in a 2-month span using CapCut
+•	Drove 70,000+ total views across platforms for clients including Kate Preftakes 
+Photography and Events by Sorrell
+5c. Summer Camp Counselor
+Role: Summer Camp Counselor
+Date: Jun 2021 – Aug 2024
+Organization: Amherst Parks & Recreation Dept. · Amherst, NH
+•	Collaborated with colleagues to prepare 120+ activities and lead 40 campers through 
+engaging summer programming over 4 seasons
+Experience Section Commentary (italic aside)
+These roles taught me how to lead, communicate, and deliver under pressure. Being an RA 
+means being a reliable resource at nearly all times. Running a content business means shipping 
+work on deadlines with paying clients. Both feed directly into how I approach engineering.
+6. RESEARCH & INTERESTS SECTION
+Section Heading
+What Fascinates Me
+Card 1 Title: Fragrance Science
+Card 1 Description: The chemistry of scent — volatility, molecular behavior, and how physical 
+properties translate to sensory experience.
+Card 2 Title: Process Optimization
+Card 2 Description: Finding the most efficient path through complex systems — from chemical 
+processes to software architecture.
+Card 3 Title: Thermodynamics
+Card 3 Description: Phase equilibria, energy balances, and the fundamental rules that govern 
+chemical systems.
+Card 4 Title: Computational Tools
+Card 4 Description: Building software that makes engineering intuition computable — from 
+formulation engines to process models.
+Card 5 Title: LLM-Assisted Engineering
+Card 5 Description: Using large language models as engineering copilots — for code 
+generation, data structuring, and rapid prototyping.
+Card 6 Title: Scale-Up & Formulation
+Card 6 Description: Translating lab-scale prototypes into repeatable, economically viable 
+production processes.
+Interests Section Commentary (italic aside)
+These aren’t just academic interests — they’re the threads that connect everything I build. 
+Fragrance science led to the Fragrance Engine. Thermodynamics shaped my process models. 
+AI tools let me ship all of it at a pace that shouldn’t be possible for one person.
+7. CONTACT SECTION
+Section Heading
+Let’s Connect
+Subtext
+I’m looking for co-op opportunities in chemical engineering and related fields. Feel free to reach 
+out.
+Email
+Finleyirvine@gmail.com
+Phone
+(603) 759-3867
+LinkedIn URL
+https://www.linkedin.com/in/finley-irvine-11020b334
+GitHub URL
+https://github.com/Finley1243424
+CTA Button Text
+Get in Touch
+Club Tags (comma-separated)
+AIChE, RIT Roundnet, Table Tennis
+8. FOOTER
+© 2026 Finley Irvine. Built with intention.

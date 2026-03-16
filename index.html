@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -64,14 +64,17 @@
     <section id="hero" class="section-hero">
       <div class="hero-grid"></div>
       <div class="container hero-content">
-        <h1 class="hero-name" data-reveal="fade-up">Finley Irvine</h1>
+        <div class="hero-title-row" data-reveal="fade-up">
+          <img src="assets/images/profile.png" alt="Finley Irvine" class="hero-profile-pic">
+          <h1 class="hero-name">Finley Irvine</h1>
+        </div>
 
         <p class="hero-tagline" data-typewriter="Chemical Engineering · Builder · Problem Solver"></p>
 
         <div class="hero-details" data-reveal="fade-up" style="--i: 2">
           <span class="hero-detail">
             <span class="dot"></span>
-            Chemical Engineering @ RIT
+            Chemical Engineering BS @ RIT
           </span>
           <span class="hero-detail">
             <span class="dot"></span>
@@ -110,10 +113,10 @@
         <div class="about-grid">
           <div class="about-text" data-reveal-group>
             <p data-reveal="fade-up">
-              I'm a second-year Chemical Engineering student at Rochester Institute of Technology with a fascination for the space where scientific rigor meets creative problem-solving. My coursework spans thermodynamics, fluid mechanics, and organic chemistry — but what excites me most is building tools that make engineering intuition computable.
+              I'm a second-year Chemical Engineering student at Rochester Institute of Technology with a fascination for the space where scientific rigor meets creative problem-solving. My coursework spans thermodynamics, fluid mechanics, and organic chemistry. I aspire to take this coursework and apply it to long-term projects.
             </p>
             <p data-reveal="fade-up">
-              That curiosity led me to develop a full-stack fragrance formulation engine — a project that earned a $1,000 endowed scholarship and combines physical chemistry modeling with software engineering. I approach every problem the same way: understand the fundamentals, prototype rapidly, and iterate until the solution is both elegant and functional.
+              That curiosity led me to develop a full-stack fragrance formulation engine. This is a project with a lot of history, and I was recently awarded a $1,000 endowed scholarship and combines physical chemistry modeling with software engineering and entrepreneurship. I approach every problem the same way: understand the fundamentals, try, fail, learn, and iterate until I get a product that I am not only happy with, but ready to share with others.
             </p>
             <p data-reveal="fade-up">
               I'm looking for a co-op where I can apply this blend of chemical engineering knowledge and computational thinking to real-world process challenges.
@@ -123,7 +126,7 @@
         </div>
 
         <p class="section-aside" data-reveal="fade-up">
-          This section is my way of saying: I don't just study chemical engineering — I build things with it. The scholarship wasn't for grades; it was for applying engineering thinking to a creative domain and producing something real.
+          Chemical Engineers are known to be less hands-on than other related engineering fields. This imbalance inspired me to always keep myself busy with a project since arriving at RIT.
         </p>
       </div>
     </section>
@@ -152,7 +155,7 @@
               </span>
               <h3 class="project-title">Fragrance Engine</h3>
               <p class="project-desc">
-                A full-stack fragrance formulation system that converts scent goals into structured formulas using a deterministic scent-pyramid model. Features volatility and longevity modeling from physical properties, version-controlled formulas with diffs, IFRA compliance checking, and a custom olfactory taxonomy spanning 14+ scent families.
+                You know nothing about making a fragrance? Choose what you want it to smell like, adjust to your taste, and the engine will calculate a carefully refined and researched formula that is ready to be implemented at any reasonable scale. This requires a full-stack fragrance formulation system that converts scent goals into structured formulas using a deterministic scent-pyramid model. Features volatility and longevity modeling from physical properties, version-controlled formulas with diffs, IFRA compliance checking, and a custom olfactory taxonomy spanning 14+ scent families.
               </p>
               <div class="project-tags">
                 <span class="project-tag">Python</span>
@@ -179,7 +182,7 @@
                 </div>
               </div>
               <div class="project-links">
-                <a href="https://github.com/Finley1243424" class="project-link" target="_blank" rel="noopener">
+                <a href="https://github.com/Finley1243424/fragrance_engine" class="project-link" target="_blank" rel="noopener">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
                   View on GitHub
                 </a>
@@ -187,7 +190,10 @@
             </div>
 
             <div class="project-visual">
-              <span class="project-visual-placeholder">[ screenshot ]</span>
+              <div class="project-screenshots">
+                <img src="assets/images/fragrance-builder.png" alt="Fragrance Engine Builder View" class="project-screenshot">
+                <img src="assets/images/fragrance-compare.png" alt="Fragrance Engine Compare View" class="project-screenshot">
+              </div>
             </div>
           </div>
         </div>
@@ -223,27 +229,16 @@
             </div>
           </div>
 
-          <!-- This Portfolio -->
+          <!-- Onshape 3D Project -->
           <div class="project-card" data-reveal="fade-up">
-            <span class="kicker">Meta</span>
-            <h3>This Portfolio <span style="font-size: 0.6em; opacity: 0.6;">(yes, this one)</span></h3>
-            <p>
-              You're looking at it. A custom-built static site with scroll-triggered animations, dark/light theming, an "unwraveling" reveal system, and an AI-powered application page generator that creates personalized recruiter pages on command. No templates. No frameworks. Just HTML, CSS, vanilla JS, and a very persistent Claude session.
-            </p>
-            <div class="project-tags">
-              <span class="project-tag">HTML / CSS / JS</span>
-              <span class="project-tag">AI-Generated</span>
-              <span class="project-tag">Claude Code</span>
-            </div>
-          </div>
-
-          <!-- Onshape — Coming Soon -->
-          <div class="project-card coming-soon" data-reveal="fade-up">
             <span class="kicker">3D Design</span>
             <h3>Onshape 3D Project</h3>
             <p>
-              A CAD modeling project built in Onshape. Details and visuals coming soon.
+              Designed and modeled a scaled-down process flow system in Onshape featuring a mixer, evaporator, and crystallizer with connecting piping networks. Built within a 20×16 ft concrete tabletop constraint with all units under the 3 ft height limit. Includes degree of freedom analysis, stream tables, and safety/ethics considerations for real-world scale-up.
             </p>
+            <div class="project-card-image">
+              <img src="assets/images/onshape-3d.png" alt="Onshape 3D Process Model" class="project-card-screenshot">
+            </div>
             <div class="project-tags">
               <span class="project-tag">Onshape</span>
               <span class="project-tag">CAD</span>
@@ -253,7 +248,7 @@
         </div>
 
         <p class="section-aside" data-reveal="fade-up">
-          Every project here started with a question I couldn't stop thinking about. The Fragrance Engine began as "can I make scent formulation computable?" — and turned into a production-grade system. That's how I work: curiosity first, then engineering until it's real.
+          Every project here started with a question I couldn't stop thinking about. The Fragrance Engine began as "can I make scent formulation computable?" This turned into a production-grade system.
         </p>
       </div>
     </section>
@@ -315,7 +310,7 @@
         </div>
 
         <p class="section-aside" data-reveal="fade-up">
-          I don't just use AI tools — I build with them. The Fragrance Engine is an LLM-assisted application: I architect the system, design the data models, and use AI as a force multiplier to ship production-grade software faster than most teams. That's the skill that matters most here.
+          Implementing AI within my projects has taught me many powerful tools that will only expand with time. The Fragrance Engine is an LLM-assisted application: I spend as much time as one would without the use of AI coding, to plan, gather context, and import tools to allow AI to work with me, not for me.
         </p>
       </div>
     </section>
@@ -375,7 +370,7 @@
         </div>
 
         <p class="section-aside" data-reveal="fade-up">
-          These roles taught me how to lead, communicate, and deliver under pressure. Being an RA means solving problems in real time for real people. Running a content business means shipping work on deadline with paying clients. Both feed directly into how I approach engineering.
+          These roles taught me how to lead, communicate, and deliver under pressure. Being an RA means being a reliable resource at nearly all times. Running a content business means shipping work on deadlines with paying clients. Both feed directly into how I approach engineering.
         </p>
       </div>
     </section>
@@ -490,6 +485,6 @@
   </footer>
 
 
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
