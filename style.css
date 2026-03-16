@@ -432,6 +432,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: nowrap;
   gap: 12px; 
 }
 
@@ -454,6 +455,7 @@ section {
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
+  flex-shrink: 0;
 }
 
 @keyframes cursorBlink {
