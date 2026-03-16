@@ -429,6 +429,10 @@ section {
   color: var(--text-secondary);
   margin-bottom: var(--space-lg);
   min-height: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px; 
 }
 
 .hero-tagline .cursor {
@@ -439,6 +443,17 @@ section {
   margin-left: 2px;
   vertical-align: text-bottom;
   animation: cursorBlink 1s step-end infinite;
+}
+
+.hero-profile-pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 @keyframes cursorBlink {
