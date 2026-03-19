@@ -431,10 +431,9 @@ section {
   min-height: 1.4em;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .hero-tagline .cursor {
@@ -455,12 +454,12 @@ section {
 }
 
 .hero-profile-pic {
-  width: 80px;
-  height: 80px;
-  min-width: 80px;
+  width: 130px;
+  height: 130px;
+  min-width: 130px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--accent);
+  border: 3px solid var(--accent);
   flex-shrink: 0;
 }
 
