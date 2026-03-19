@@ -447,6 +447,13 @@ section {
   animation: cursorBlink 1s step-end infinite;
 }
 
+.hero-info-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
 .hero-profile-pic {
   width: 80px;
   height: 80px;
@@ -454,9 +461,6 @@ section {
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--accent);
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 15px;
   flex-shrink: 0;
 }
 
@@ -469,7 +473,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-sm) var(--space-lg);
-  margin-bottom: var(--space-xl);
 }
 
 .hero-detail {
@@ -728,10 +731,29 @@ section {
   border: 1px solid var(--border);
 }
 
+.project-screenshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .project-visual-placeholder {
   color: var(--text-tertiary);
   font-size: var(--text-sm);
   font-family: var(--ff-mono);
+}
+
+.project-card-image {
+  margin-top: var(--space-md);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.project-card-screenshot {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
 }
 
 .project-links {
