@@ -762,6 +762,10 @@ section {
   object-position: center;
 }
 
+.project-card-screenshot--contain {
+  object-fit: contain;
+}
+
 .project-links {
   display: flex;
   gap: var(--space-md);
